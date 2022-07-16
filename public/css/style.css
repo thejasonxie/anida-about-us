@@ -169,6 +169,7 @@ nav {
     width: 100%;
     height: 300px;
     margin-bottom: 10px;
+    position: relative;
 }
 
 .banner-message-container {
@@ -239,5 +240,46 @@ nav {
         height: auto;
         top: auto;
         bottom: 0;
+    }
+}
+
+.box-message-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 75%;
+}
+
+.box-message-title {
+    font-family: "Montserrat", sans-serif;
+    font-size: 30px;
+    text-transform: uppercase;
+    margin: 0;
+    color: white;
+}
+
+.box-message-container hr {
+    color: #ed5325;
+    width: 75px;
+}
+
+.box-message-content {
+    font-family: "Raleway", sans-serif;
+    font-size: 20px;
+    color: white;
+}
+
+@media only screen and (max-width: 640px) {
+    .box-message-container {
+        /* width: 90%; */
+    }
+    .box-message-title {
+        font-size: 24px;
+    }
+
+    .box-message-content {
+        font-size: 16px;
     }
 }

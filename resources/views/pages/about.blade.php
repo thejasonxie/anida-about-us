@@ -23,20 +23,20 @@
         <div class="box-img-container">
           <img src="{{ asset("images/Box1.png") }}" alt="ANIDA's vision image">
         </div>
-        <div>
-          <h2>Vision</h2>
+        <div class="box-message-container">
+          <h2 class="box-message-title">Vision</h2>
           <hr>
-          <p>Creating opportunity through access to education.</p>
+          <p class="box-message-content">Creating opportunity through access to education.</p>
         </div>
       </div>
       <div class="box">
         <div  class="box-img-container">
           <img src="{{ asset("images/Box2.png") }}" alt="ANIDA's mission image">
         </div>
-        <div>
-          <h2>Mission</h2>
+        <div class="box-message-container">
+          <h2 class="box-message-title">Mission</h2>
           <hr>
-          <p>An international organization rooted in Christian values that creates opportunities through community-based projects for individuals facing a difficult reality.</p>
+          <p class="box-message-content">An international organization rooted in Christian values that creates opportunities through community-based projects for individuals facing a difficult reality.</p>
         </div>
       </div>
     </section>
