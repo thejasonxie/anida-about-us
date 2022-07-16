@@ -14,6 +14,7 @@
     <p>Candidate Portfolio: <a href="https://jasonxie.dev/" target="_blank">https://jasonxie.dev/</a></p>
     <p>Candidate Github Repo: <a href="https://github.com/thejasonxie" target="_blank">https://github.com/thejasonxie</a></p>
     <hr>
+    <p>Source Code: <a href="https://github.com/thejasonxie/anida-about-us" target="_blank">https://github.com/thejasonxie/anida-about-us</a></p>
     <p>Result: <a href="{{ route("about") }}">About Us</a> or use navigation bar.</p>
     <p>Submission Date: Saturday, July 16, 2022</p>
   </main>
