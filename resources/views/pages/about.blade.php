@@ -6,22 +6,21 @@
   
   <main>
     <section class="banner">
-      <div>
+      <div class="banner-img-container">
         <img src="{{ asset("images/Banner.png") }}" alt="About us banner image">
       </div>
-      <div>
-        <h1>
+      <div class="banner-message-container">
+        <h1 class="banner-message-title">
           <span>About</span>
-          &nbsp;
           <span>Us</span>
         </h1>
         <hr>
-        <p>At ANIDA, we are individuals who believe that it takes more than passion and being intentional to create a world of difference.</p>
+        <p class="banner-message-content">At ANIDA, we are individuals who believe that it takes more than passion and being intentional to create a world of difference.</p>
       </div>
     </section>
     <section class="boxes container">
-      <div class="box1">
-        <div>
+      <div class="box">
+        <div class="box-img-container">
           <img src="{{ asset("images/Box1.png") }}" alt="ANIDA's vision image">
         </div>
         <div>
@@ -30,8 +29,8 @@
           <p>Creating opportunity through access to education.</p>
         </div>
       </div>
-      <div class="box2">
-        <div>
+      <div class="box">
+        <div  class="box-img-container">
           <img src="{{ asset("images/Box2.png") }}" alt="ANIDA's mission image">
         </div>
         <div>
