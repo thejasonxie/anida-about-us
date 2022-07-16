@@ -5,7 +5,7 @@
   <main class="container" style="padding: 20px;">
     <h1>Take Home Assessment</h1>
     <hr>
-    <p>Company: ANIDA</p>
+    <p>Company: <a href="https://www.anida.org/" target="_blank">ANIDA</a></p>
     <p>Position: Front End Volunteer</p>
     <p>Due Date: Sunday, July 17, 2022</p>
     <hr>
