@@ -5,19 +5,11 @@
 @section("content")
   
   <main>
-    <section class="banner">
-      <div class="banner-img-container">
-        <img src="{{ asset("images/Banner.png") }}" alt="About us banner image">
-      </div>
-      <div class="banner-message-container">
-        <h1 class="banner-message-title">
-          <span>About</span>
-          <span>Us</span>
-        </h1>
-        <hr>
-        <p class="banner-message-content">At ANIDA, we are individuals who believe that it takes more than passion and being intentional to create a world of difference.</p>
-      </div>
-    </section>
+    <x-banner 
+      imgSrc="images/Banner.png"
+      title="<span>About</span> <span>Us</span>" 
+      message="At ANIDA, we are individuals who believe that it takes more than passion and being intentional to create a world of difference."
+    />
     <section class="boxes container">
       <div class="box">
         <div class="box-img-container">
