@@ -5,6 +5,10 @@
     menuHamburgerBtn.addEventListener("click", toggleMiniMenu);
     window.addEventListener("resize", handleMiniMenu);
 
+    if (window.innerWidth <= 640) {
+        miniMenu.classList.add("display-none");
+    }
+
     function toggleMiniMenu() {
         miniMenu.classList.toggle("display-none");
     }
